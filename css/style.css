@@ -95,13 +95,11 @@ body, html {
 
 .h1-text { font-family: 'Oswald', sans-serif; font-size: 8vh; 8vw}
 
-.w { font-family: 'Oswald', sans-serif; font-size: 8vh; 8vw; color:firebrick; }
-
 .l { font-family: 'Oswald', sans-serif; font-size: 8vh; 8vw;color:white;}
 
 .p { font-family: 'Oswald', sans-serif; font-size: 4vh; 4vw} 
 
-.i { font-family: 'Oswald', sans-serif; font-size: 10vh; 10vw; color: ;} 
+.i { font-family: 'Oswald', sans-serif; font-size: 12vh; 12vw; color: ;} 
 
 .s { font-family: 'Oswald', sans-serif; font-size: 15vh; 10vw}
 
@@ -109,7 +107,7 @@ body, html {
 
 CSS: /* Full Screen Video */
 /* Style the video: 100% width and height to cover the entire window */
-    
+
 #myVideo {
     position: fixed;
     left: 0;
@@ -146,18 +144,18 @@ CSS: /* Full Screen Video */
 
 @media (max-width: 600px) {
     #myVideo {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-}
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+    }
     @media (max-width: 1080px ){
-     #myVideo {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+        #myVideo {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
         }
-}
+    }
